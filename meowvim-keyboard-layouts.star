@@ -1,4 +1,4 @@
-# meowvim_keyboard_layouts.star
+# meowvim-keyboard-layouts.star
 #
 # platforms: ["macos"]
 # after:     ["@stdlib//components/hammerspoon"]

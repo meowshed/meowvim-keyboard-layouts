@@ -1,0 +1,1 @@
+module(name = "meowvim-keyboard-layouts", version = "0.1.1", compat = 1)

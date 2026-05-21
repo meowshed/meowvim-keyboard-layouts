@@ -33,7 +33,7 @@ obj._appWatcher      = nil
 
 local function isMeowvimTitle(title)
   if not title then return false end
-  -- Neovide title formats:
+  -- meowvim title formats:
   --   New:  "filename [N]"  /  "filename+ [I]"
   --   Old:  "meowvim | filename [I] -- user@host"
   return title:find("meowvim") ~= nil
