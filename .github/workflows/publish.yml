@@ -24,7 +24,7 @@ jobs:
           tar -czf "meowvim-keyboard-layouts-${{ steps.version.outputs.version }}.tar.gz" \
             --exclude='.git' \
             --exclude='.github' \
-            MODULE.meow meowvim-keyboard-layouts/ MeowvimKeyboardLayouts.spoon/
+            MODULE.meow init.star MeowvimKeyboardLayouts.spoon/
 
       - name: Compute SRI hash
         id: sri
